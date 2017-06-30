@@ -1,4 +1,4 @@
-# Xcodeprojlint
+# xcodeprojlint
 
 <a href="https://travis-ci.org/carambalabs/xcodeprojlint">
     <img src="https://travis-ci.org/carambalabs/xcodeprojlint.svg?branch=master">

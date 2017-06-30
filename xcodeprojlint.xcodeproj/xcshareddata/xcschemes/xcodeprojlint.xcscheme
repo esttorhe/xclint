@@ -70,15 +70,7 @@
         <BuildableReference
           BuildableIdentifier = "primary"
           BuildableName = "'lib$(TARGET_NAME)'"
-          BlueprintName = "StringScanner"
-          ReferencedContainer = "container:xcodeprojlint.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
-          BuildableName = "'lib$(TARGET_NAME)'"
-          BlueprintName = "Guaka"
+          BlueprintName = "Commander"
           ReferencedContainer = "container:xcodeprojlint.xcodeproj">
         </BuildableReference>
       </BuildActionEntry>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A5B5581F06B83400504B4F /* XcodeprojLinting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B5571F06B83400504B4F /* XcodeprojLinting.swift */; };
+		04A5B55A1F06BF1C00504B4F /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B5591F06BF1C00504B4F /* Rules.swift */; };
+		04A5B55C1F06C14B00504B4F /* RulesCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B55B1F06C14B00504B4F /* RulesCommand.swift */; };
+		04A5B55E1F06C1FA00504B4F /* PrintVersionCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B55D1F06C1FA00504B4F /* PrintVersionCommand.swift */; };
 		OBJ_175 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* Case.swift */; };
 		OBJ_176 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* Context.swift */; };
 		OBJ_177 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* Expectation.swift */; };
@@ -385,6 +389,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A5B5571F06B83400504B4F /* XcodeprojLinting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XcodeprojLinting.swift; sourceTree = "<group>"; };
+		04A5B5591F06BF1C00504B4F /* Rules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		04A5B55B1F06C14B00504B4F /* RulesCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesCommand.swift; sourceTree = "<group>"; };
+		04A5B55D1F06C1FA00504B4F /* PrintVersionCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintVersionCommand.swift; sourceTree = "<group>"; };
 		OBJ_100 /* NoPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPadding.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		OBJ_102 /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
@@ -843,7 +851,7 @@
 			path = ".build/checkouts/xcodeproj.git-530843958390952143/Sources/xcodeproj";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -852,7 +860,6 @@
 				OBJ_11 /* Dependencies */,
 				OBJ_158 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_66 /* xcodeprojextensions */ = {
@@ -959,6 +966,10 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* main.swift */,
+				04A5B5571F06B83400504B4F /* XcodeprojLinting.swift */,
+				04A5B5591F06BF1C00504B4F /* Rules.swift */,
+				04A5B55B1F06C14B00504B4F /* RulesCommand.swift */,
+				04A5B55D1F06C1FA00504B4F /* PrintVersionCommand.swift */,
 			);
 			name = xcodeprojlint;
 			path = Sources/xcodeprojlint;
@@ -1188,7 +1199,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_158 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1414,7 +1425,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				04A5B5581F06B83400504B4F /* XcodeprojLinting.swift in Sources */,
 				OBJ_406 /* main.swift in Sources */,
+				04A5B55E1F06C1FA00504B4F /* PrintVersionCommand.swift in Sources */,
+				04A5B55A1F06BF1C00504B4F /* Rules.swift in Sources */,
+				04A5B55C1F06C14B00504B4F /* RulesCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

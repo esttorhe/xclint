@@ -5,15 +5,7 @@ let lintCommand = command(Option("path", ".xcodeprojlint.yml" , flag: "p", descr
     //TODO
 }
 
-let rulesCommand = command { () in
-    //TODO
-}
-
 let autoCorrectCommand = command { () in
-    //TODO
-}
-
-let printVersionCommand = command { () in
     //TODO
 }
 

@@ -3,9 +3,5 @@ import Commander
 import ShellOut
 
 let printVersionCommand = command { () in
-    do {
-
-    } catch {
-        
-    }
+    print("The current version of xcodeprojlint is: \(version)")
 }

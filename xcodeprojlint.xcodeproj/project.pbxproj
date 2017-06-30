@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A5B57F1F06CC4B00504B4F /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B57E1F06CC4B00504B4F /* Version.swift */; };
 		OBJ_182 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* Case.swift */; };
 		OBJ_183 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Context.swift */; };
 		OBJ_184 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* Expectation.swift */; };
@@ -398,6 +399,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A5B57E1F06CC4B00504B4F /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		OBJ_10 /* PrintVersionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVersionCommand.swift; sourceTree = "<group>"; };
 		OBJ_100 /* DigestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestType.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
@@ -881,7 +883,7 @@
 			path = ".build/checkouts/xcodeproj.git-530843958390952143/Sources/xcodeproj";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -890,7 +892,6 @@
 				OBJ_15 /* Dependencies */,
 				OBJ_164 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -942,6 +943,7 @@
 				OBJ_11 /* Rules.swift */,
 				OBJ_12 /* RulesCommand.swift */,
 				OBJ_13 /* XcodeprojLinting.swift */,
+				04A5B57E1F06CC4B00504B4F /* Version.swift */,
 			);
 			name = xcodeprojlint;
 			path = Sources/xcodeprojlint;
@@ -1247,7 +1249,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_164 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1486,6 +1488,7 @@
 				OBJ_421 /* PrintVersionCommand.swift in Sources */,
 				OBJ_422 /* Rules.swift in Sources */,
 				OBJ_423 /* RulesCommand.swift in Sources */,
+				04A5B57F1F06CC4B00504B4F /* Version.swift in Sources */,
 				OBJ_424 /* XcodeprojLinting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,79 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4983FC5FB4D4BE8E4E8700CE96D4490BF4CD771",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A480BB2849036CF504F1F2E5D43B67BE59D35121" : 9223372036854775807,
+    "222626D28F6F2D261853F434D1FFEBC546CCC393" : 9223372036854775807,
+    "5441F5A06973B7C5DCFB2F409C92105EFA8EF303" : 9223372036854775807,
+    "419DF1B9522022C975F034AD3286151764923B4B" : 9223372036854775807,
+    "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5" : 9223372036854775807,
+    "E4983FC5FB4D4BE8E4E8700CE96D4490BF4CD771" : 9223372036854775807,
+    "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53" : 9223372036854775807,
+    "D591987028BFCE350CA11D7DA7F1AE9C4373C207" : 9223372036854775807,
+    "7AF96DB6EA6158C0309065EFFC712F3F9D7E1CC3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CBAE3D47-022B-4E2D-A9A1-2D643BEE5640",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A480BB2849036CF504F1F2E5D43B67BE59D35121" : "xcodeprojlint\/.build\/checkouts\/AEXML.git--1992474868199569405\/",
+    "222626D28F6F2D261853F434D1FFEBC546CCC393" : "xcodeprojlint\/.build\/checkouts\/xcodeproj.git-530843958390952143\/",
+    "5441F5A06973B7C5DCFB2F409C92105EFA8EF303" : "xcodeprojlint\/.build\/checkouts\/Commander.git-8842944228949165507\/",
+    "419DF1B9522022C975F034AD3286151764923B4B" : "xcodeprojlint\/.build\/checkouts\/Rainbow-4833422609927903952\/",
+    "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5" : "xcodeprojlint\/.build\/checkouts\/PathKit.git--1865447967743163058\/",
+    "E4983FC5FB4D4BE8E4E8700CE96D4490BF4CD771" : "xcodeprojlint\/",
+    "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53" : "xcodeprojlint\/.build\/checkouts\/CryptoSwift.git--6440749087414195235\/",
+    "D591987028BFCE350CA11D7DA7F1AE9C4373C207" : "xcodeprojlint\/.build\/checkouts\/Spectre.git--7655155069707042687\/",
+    "7AF96DB6EA6158C0309065EFFC712F3F9D7E1CC3" : "xcodeprojlint\/.build\/checkouts\/Unbox-1452311871038889150\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "xcodeprojlint",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "xcodeprojlint.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/xcodeproj.git-530843958390952143",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "222626D28F6F2D261853F434D1FFEBC546CCC393"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/Rainbow-4833422609927903952",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "419DF1B9522022C975F034AD3286151764923B4B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/Commander.git-8842944228949165507",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5441F5A06973B7C5DCFB2F409C92105EFA8EF303"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/Unbox-1452311871038889150",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AF96DB6EA6158C0309065EFFC712F3F9D7E1CC3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/AEXML.git--1992474868199569405",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A480BB2849036CF504F1F2E5D43B67BE59D35121"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/CryptoSwift.git--6440749087414195235",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3D8ED1CB28D809ADCE2C0DE74935E8A502ACD53"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/Spectre.git--7655155069707042687",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D591987028BFCE350CA11D7DA7F1AE9C4373C207"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/pedro.pinera.buendia\/code\/xcodeprojlint\/.build\/repositories\/PathKit.git--1865447967743163058",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:carambalabs\/xcodeprojlint.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4983FC5FB4D4BE8E4E8700CE96D4490BF4CD771"
+    }
+  ]
+}

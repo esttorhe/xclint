@@ -27,8 +27,7 @@ brew install xcodeprojlint
 ### References
 
 - [Rainbow](https://github.com/onevcat/Rainbow)
-- [Guaka](https://github.com/oarrabi/Guaka)
-- [CommandLine](https://github.com/jatoben/CommandLine)
+- [Commander](https://github.com/kylef/Commander.git)
 
 ## About
 

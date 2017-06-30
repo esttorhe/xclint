@@ -1,0 +1,12 @@
+included:
+  - Sources
+excluded:
+  - Assets
+  - Fixtures
+  - Tests
+  - .build
+disabled_rules:
+  - trailing_whitespace
+  - nesting
+  - cyclomatic_complexity
+  - file_length

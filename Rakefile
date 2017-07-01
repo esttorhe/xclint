@@ -63,6 +63,8 @@ task :ci => [:clean] do
   sh "swift build"
   print "> Executing tests"
   sh "swift test"
+  print "> Linting project"
+  sh "swiftlint"
 end
 
 desc "Bumps the version of xcodeprojlint. It creates a new tagged commit and archives the binary to be published with the release"

@@ -1,12 +1,16 @@
 import Commander
 
-let lintCommand = command(Option("path", ".xcodeprojlint.yml" , flag: "p", description: "Linting configuration file .xcodeprojlint.yml"),
-                          Flag("quite", flag: "q", description: "True if you don't want the logs to be printed", default: false)) { (path, quiet) in
-    //TODO
+let lintCommand = command(Option("path",
+                                 ".xcodeprojlint.yml",
+                                 flag: "p",
+                                 description: "Linting configuration file .xcodeprojlint.yml"),
+                          Flag("quite",
+                               flag: "q",
+                               description: "True if you don't want the logs to be printed",
+                               default: false)) { (_, _) in
 }
 
 let autoCorrectCommand = command { () in
-    //TODO
 }
 
 let group = Group {

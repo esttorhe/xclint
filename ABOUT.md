@@ -1,2 +1,0 @@
-# What is xcodeprojlint?
-//TODO

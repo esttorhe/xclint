@@ -4,7 +4,6 @@ module: xcodeprojlint
 module_version: 0.0.1
 github_url: https://github.com/carambalabs/xcodeprojlint
 copyright: 'Copyright © 2017 Caramba. All rights reserved.'
-readme: ABOUT.md
 documentation: guides/*.md
 custom_categories:
   - name: Commands

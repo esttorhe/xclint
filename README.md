@@ -9,6 +9,9 @@
 <a href="https://twitter.com/carambalabsEng">
     <img src="https://img.shields.io/badge/contact-@carambalabsEng-blue.svg?style=flat" alt="Twitter: @carambalabsEng" />
 </a>
+<a href="https://codecov.io/gh/carambalabs/xcodeproj">
+  <img src="https://codecov.io/gh/carambalabs/xcodeproj/branch/master/graph/badge.svg" alt="Codecov" />
+</a>
 
 `xcodeprojlint` is a command line tool written in Swift that validates the state of your Xcode Project. It's able to find duplicated and missing files, inconsistencies between the groups and the folders in your system...
 

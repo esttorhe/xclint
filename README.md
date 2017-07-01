@@ -43,6 +43,8 @@ brew install xcodeprojlint
 - `autocorrect` it tries to correct all the linting issues found.
 - `version` it prints the version of `xcodeprojlint` that you are using.
 
+### Documentation
+You can check out the documentation on the following [link](https://carambalabs.github.io/xcodeprojlint/index.html). The documentation is automatically generated in every release by using [Jazzy](https://github.com/realm/jazzy) from [Realm](https://realm.io).
 
 ### References
 

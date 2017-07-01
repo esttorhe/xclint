@@ -38,4 +38,6 @@ task :bump_version do
 end
 
 task :release do
+  output = `git status -s`
+  puts output
 end

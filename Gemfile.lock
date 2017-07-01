@@ -42,6 +42,7 @@ GEM
       netrc (= 0.7.8)
     cocoapods-try (1.1.0)
     colored2 (3.1.2)
+    colorize (0.8.1)
     escape (0.0.4)
     fourflusher (2.0.1)
     fuzzy_match (2.0.4)
@@ -69,6 +70,7 @@ GEM
     rouge (1.11.1)
     ruby-macho (1.1.0)
     sass (3.4.24)
+    semantic (1.6.0)
     sqlite3 (1.3.13)
     thread_safe (0.3.6)
     tzinfo (1.2.3)
@@ -85,9 +87,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   jazzy (~> 0.8)
   mustache (~> 0.9)
   rake
+  semantic
 
 BUNDLED WITH
    1.15.1

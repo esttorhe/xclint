@@ -1,0 +1,3 @@
+## 0.0.2
+- First version of `xcodeprojlint`. It just shows all the available commands but they don't actually do anything.
+- Some release steps have been automated with [Rake](https://github.com/ruby/rake).

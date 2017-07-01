@@ -1,3 +1,0 @@
-# Releasing xcodeprojlint
-
-//TODO

@@ -24,6 +24,16 @@ def bump_version
   new_version
 end
 
+def commit_version(new_version)
+  `git add #{VERSION_SWIFT_PATH}`
+  `git commit -m "Bump version to #{new_version}"`
+  `git tag #{new_version}`
+end
+
+def any_git_changes?
+  !`git status -s`.empty?
+end
+
 ### RAKE TASKS ###
 
 desc "Removes the build folder"
@@ -33,10 +43,9 @@ task :clean do
 end
 
 task :release do
-  output = `git status -s`
-  puts output.empty?
-  # puts "> Commiting and tagging with #{new_version}"
-  # `git add #{VERSION_SWIFT_PATH}`
-  # `git commit -m "Bump version to #{new_version}"`
-  # `git tag #{new_version}`
+  abort '> Commit all your changes before starting the release' unless !any_git_changes?
+  new_version = bump_version
+  puts "> Version bumped to #{new_version}"
+  commit_version(new_version)
+  puts "> Commit created and tagged with #{new_version}"
 end

@@ -12,8 +12,12 @@
 <a href="https://codecov.io/gh/carambalabs/xcodeproj">
   <img src="https://codecov.io/gh/carambalabs/xcodeproj/branch/master/graph/badge.svg" alt="Codecov" />
 </a>
+<a href="https://opensource.org/licenses/MIT">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" />
+</a>
 
 `xcodeprojlint` is a command line tool written in Swift that validates the state of your Xcode Project. It's able to find duplicated and missing files, inconsistencies between the groups and the folders in your system...
+
 
 ### Install
 

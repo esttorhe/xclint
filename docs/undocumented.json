@@ -1,0 +1,12 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/pedro.pinera.buendia/code/xcodeprojlint/Sources/xcodeprojlint/PrintVersionCommand.swift",
+      "line": 4,
+      "symbol": "PrintVersionCommand",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/pedro.pinera.buendia/code/xcodeprojlint"
+}

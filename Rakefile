@@ -49,6 +49,10 @@ def print(message)
   puts message.colorize(:yellow)
 end
 
+def generate_docs(version)
+  sh "jazzy --clean --module-version #{version}--module xcodeprojlint --xcodebuild-arguments -scheme,xcodeprojlint --skip-undocumented --no-download-badge"
+end
+
 ### RAKE TASKS ###
 
 desc "Removes the build folder"
@@ -76,6 +80,8 @@ task :release => [:clean] do
   print "> xcodeprojlint built"
   archive
   print "> xcodeprojlint archived"
+  generate_docs(new_version)
+  print "> Documentation generated"
   commit_and_push_version(new_version)
   print "> Commit created and tagged with #{new_version}"
 end

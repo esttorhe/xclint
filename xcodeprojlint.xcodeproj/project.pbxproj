@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04A5B57F1F06CC4B00504B4F /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B57E1F06CC4B00504B4F /* Version.swift */; };
+		04A5B5811F07E83E00504B4F /* AutocorrectCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B5801F07E83E00504B4F /* AutocorrectCommand.swift */; };
+		04A5B5831F07E86200504B4F /* LintCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A5B5821F07E86200504B4F /* LintCommand.swift */; };
 		OBJ_182 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* Case.swift */; };
 		OBJ_183 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* Context.swift */; };
 		OBJ_184 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_158 /* Expectation.swift */; };
@@ -400,6 +402,8 @@
 
 /* Begin PBXFileReference section */
 		04A5B57E1F06CC4B00504B4F /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		04A5B5801F07E83E00504B4F /* AutocorrectCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutocorrectCommand.swift; sourceTree = "<group>"; };
+		04A5B5821F07E86200504B4F /* LintCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LintCommand.swift; sourceTree = "<group>"; };
 		OBJ_10 /* PrintVersionCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintVersionCommand.swift; sourceTree = "<group>"; };
 		OBJ_100 /* DigestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestType.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
@@ -944,6 +948,8 @@
 				OBJ_12 /* RulesCommand.swift */,
 				OBJ_13 /* XcodeprojLinting.swift */,
 				04A5B57E1F06CC4B00504B4F /* Version.swift */,
+				04A5B5801F07E83E00504B4F /* AutocorrectCommand.swift */,
+				04A5B5821F07E86200504B4F /* LintCommand.swift */,
 			);
 			name = xcodeprojlint;
 			path = Sources/xcodeprojlint;
@@ -1486,10 +1492,12 @@
 			files = (
 				OBJ_420 /* main.swift in Sources */,
 				OBJ_421 /* PrintVersionCommand.swift in Sources */,
+				04A5B5831F07E86200504B4F /* LintCommand.swift in Sources */,
 				OBJ_422 /* Rules.swift in Sources */,
 				OBJ_423 /* RulesCommand.swift in Sources */,
 				04A5B57F1F06CC4B00504B4F /* Version.swift in Sources */,
 				OBJ_424 /* XcodeprojLinting.swift in Sources */,
+				04A5B5811F07E83E00504B4F /* AutocorrectCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

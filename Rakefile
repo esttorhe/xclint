@@ -16,6 +16,14 @@ def generate_version_swift(version)
   File.open(VERSION_SWIFT_PATH, 'w') { |file| file.write(output) }
 end
 
+def bump_version
+  last_tag = `git describe --abbrev=0 --tags`
+  current_version = Semantic::Version.new last_tag
+  new_version = current_version.increment! :patch
+  generate_version_swift new_version.to_s
+  new_version
+end
+
 ### RAKE TASKS ###
 
 desc "Removes the build folder"
@@ -24,20 +32,11 @@ task :clean do
   `rm -rf build`
 end
 
-desc "Bumps the version, generating a new Version.swift and tagging the version on git"
-task :bump_version do
-  last_tag = `git describe --abbrev=0 --tags`
-  current_version = Semantic::Version.new last_tag
-  new_version = current_version.increment! :patch
-  puts "> Bumping version to #{new_version}"
-  generate_version_swift new_version.to_s
-  puts "> Commiting and tagging with #{new_version}"
-  `git add #{VERSION_SWIFT_PATH}`
-  `git commit -m "Bump version to #{new_version}"`
-  `git tag #{new_version}`
-end
-
 task :release do
   output = `git status -s`
-  puts output
+  puts output.empty?
+  # puts "> Commiting and tagging with #{new_version}"
+  # `git add #{VERSION_SWIFT_PATH}`
+  # `git commit -m "Bump version to #{new_version}"`
+  # `git tag #{new_version}`
 end

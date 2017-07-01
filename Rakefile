@@ -26,7 +26,7 @@ def bump_version
 end
 
 def commit_and_push_version(new_version)
-  `git add #{VERSION_SWIFT_PATH}`
+  `git add .`
   `git commit -m "Bump version to #{new_version}"`
   `git tag #{new_version}`
   `git push origin --tags`

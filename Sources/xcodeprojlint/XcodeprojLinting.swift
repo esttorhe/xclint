@@ -2,7 +2,7 @@ import Foundation
 import xcodeproj
 
 /// Protocol that defines a linting rule
-protocol XcodeprojLinting {
+public protocol XcodeprojLinting {
     
     /// Rule name.
     var name: String { get }

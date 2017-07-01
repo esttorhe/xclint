@@ -1,7 +1,7 @@
+// swiftlint:disable identifier_name
 import Foundation
 import Commander
-import ShellOut
 
-let printVersionCommand = command { () in
+public let PrintVersionCommand = command { () in
     print("The current version of xcodeprojlint is: \(version)")
 }

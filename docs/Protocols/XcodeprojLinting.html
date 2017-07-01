@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>XcodeprojLinting Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/XcodeprojLinting" class="dashAnchor"></a>
+    <a title="XcodeprojLinting Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">xcodeprojlint Docs</a> (87% documented)</p>
+        <p class="header-right"><a href="https://github.com/carambalabs/xcodeprojlint"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">xcodeprojlint Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        XcodeprojLinting Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Commands.html">Commands</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Commands.html#/s:v13xcodeprojlint12RulesCommandP9Commander11CommandType_">RulesCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Commands.html#/s:v13xcodeprojlint18AutoCorrectCommandP9Commander11CommandType_">AutoCorrectCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Commands.html#/s:v13xcodeprojlint11LintCommandP9Commander11CommandType_">LintCommand</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/XcodeprojLinting.html">XcodeprojLinting</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>XcodeprojLinting</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">XcodeprojLinting</span></code></pre>
+
+                </div>
+              </div>
+            <p>Protocol that defines a linting rule</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vP13xcodeprojlint16XcodeprojLinting4nameSS"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vP13xcodeprojlint16XcodeprojLinting4nameSS">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Rule name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vP13xcodeprojlint16XcodeprojLinting11descriptionSS"></a>
+                    <a name="//apple_ref/swift/Property/description" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vP13xcodeprojlint16XcodeprojLinting11descriptionSS">description</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Rule description.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">description</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FP13xcodeprojlint16XcodeprojLinting4lintFzT7projectV9xcodeproj9XcodeProj_T_"></a>
+                    <a name="//apple_ref/swift/Method/lint(project:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FP13xcodeprojlint16XcodeprojLinting4lintFzT7projectV9xcodeproj9XcodeProj_T_">lint(project:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that executes the linting rule with the givenproject.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    an error if the linting fails.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">lint</span><span class="p">(</span><span class="nv">project</span><span class="p">:</span> <span class="kt">XcodeProj</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>project</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>project to be linted.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2017 Caramba. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.2</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

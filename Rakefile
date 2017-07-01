@@ -26,7 +26,7 @@ def bump_version
 end
 
 def commit_and_push_version(new_version)
-  `git add #{VERSION_SWIFT_PATH}`
+  `git add .`
   `git commit -m "Bump version to #{new_version}"`
   `git tag #{new_version}`
   `git push origin --tags`
@@ -47,6 +47,10 @@ end
 
 def print(message)
   puts message.colorize(:yellow)
+end
+
+def generate_docs(version)
+  sh "jazzy --clean --module-version #{version}--module xcodeprojlint --xcodebuild-arguments -scheme,xcodeprojlint --skip-undocumented --no-download-badge"
 end
 
 ### RAKE TASKS ###
@@ -76,6 +80,8 @@ task :release => [:clean] do
   print "> xcodeprojlint built"
   archive
   print "> xcodeprojlint archived"
+  generate_docs(new_version)
+  print "> Documentation generated"
   commit_and_push_version(new_version)
   print "> Commit created and tagged with #{new_version}"
 end

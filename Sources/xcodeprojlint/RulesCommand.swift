@@ -1,8 +1,9 @@
+// swiftlint:disable identifier_name
 import Foundation
 import Commander
 
 /// Command that prints all the available rules.
-let rulesCommand = command { () in
+public let RulesCommand = command { () in
     print("These are all the rules available:\n")
     print(allRules
         .map { $0.name }

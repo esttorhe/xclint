@@ -2,6 +2,6 @@
 import Foundation
 
 /// Returns all the rules available for linting.
-public var allRules: [XcodeprojLinting] = [
+public var allRules: [LintRule] = [
 
 ]

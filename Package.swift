@@ -6,8 +6,14 @@ let package = Package(
     name: "xcodeprojlint",
     targets: [
         Target(
-            name: "xcodeprojlint",
-            dependencies: [])
+          name: "xcodeprojlint",
+          dependencies: ["xcodeprojlintcommands"]),
+        Target(
+          name: "xcodeprojlintrules",
+          dependencies: []),
+        Target(
+          name: "xcodeprojlintcommands",
+          dependencies: ["xcodeprojlintrules"])
     ],
     dependencies: [
         .Package(url: "https://github.com/carambalabs/xcodeproj.git", majorVersion: 0, minor: 0),

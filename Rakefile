@@ -7,8 +7,8 @@ require 'colorize'
 
 ### HELPERS ###
 
-VERSION_MUSTACHE_PATH = "Sources/xcodeprojlint/Version.mustache"
-VERSION_SWIFT_PATH = "Sources/xcodeprojlint/Version.swift"
+VERSION_MUSTACHE_PATH = "Sources/xcodeprojlintcommands/Version.mustache"
+VERSION_SWIFT_PATH = "Sources/xcodeprojlintcommands/Version.swift"
 
 def generate_version_swift(version)
   version = Version.new(version)

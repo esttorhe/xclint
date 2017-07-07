@@ -1,6 +1,7 @@
 // swiftlint:disable identifier_name
 import Foundation
 import Commander
+import xcodeprojlintrules
 
 /// Command that prints all the available rules.
 public let RulesCommand = command { () in

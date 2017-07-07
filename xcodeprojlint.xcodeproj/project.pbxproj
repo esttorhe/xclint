@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047ADD501F0FA55D00382541 /* PBXFileReferenceRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ADD4F1F0FA55D00382541 /* PBXFileReferenceRules.swift */; };
+		047ADD521F0FA65300382541 /* Fixable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ADD511F0FA65300382541 /* Fixable.swift */; };
 		OBJ_196 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* Case.swift */; };
 		OBJ_197 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* Context.swift */; };
 		OBJ_198 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* Expectation.swift */; };
@@ -161,7 +163,7 @@
 		OBJ_427 /* ShellOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ShellOut.swift */; };
 		OBJ_434 /* LintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* LintConfig.swift */; };
 		OBJ_435 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Rules.swift */; };
-		OBJ_436 /* XcodeprojLinting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* XcodeprojLinting.swift */; };
+		OBJ_436 /* LintRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* LintRule.swift */; };
 		OBJ_438 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* Spectre.framework */; };
 		OBJ_439 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* PathKit.framework */; };
 		OBJ_440 /* Unbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_178 /* Unbox.framework */; };
@@ -714,6 +716,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047ADD4F1F0FA55D00382541 /* PBXFileReferenceRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBXFileReferenceRules.swift; sourceTree = "<group>"; };
+		047ADD511F0FA65300382541 /* Fixable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixable.swift; sourceTree = "<group>"; };
 		OBJ_10 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		OBJ_100 /* BatchedCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchedCollection.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
@@ -725,7 +729,7 @@
 		OBJ_107 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		OBJ_108 /* Cryptors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptors.swift; sourceTree = "<group>"; };
 		OBJ_109 /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
-		OBJ_11 /* XcodeprojLinting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeprojLinting.swift; sourceTree = "<group>"; };
+		OBJ_11 /* LintRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintRule.swift; sourceTree = "<group>"; };
 		OBJ_110 /* Digest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
 		OBJ_111 /* DigestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestType.swift; sourceTree = "<group>"; };
 		OBJ_112 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
@@ -1332,7 +1336,9 @@
 			children = (
 				OBJ_9 /* LintConfig.swift */,
 				OBJ_10 /* Rules.swift */,
-				OBJ_11 /* XcodeprojLinting.swift */,
+				OBJ_11 /* LintRule.swift */,
+				047ADD4F1F0FA55D00382541 /* PBXFileReferenceRules.swift */,
+				047ADD511F0FA65300382541 /* Fixable.swift */,
 			);
 			name = xcodeprojlintrules;
 			path = Sources/xcodeprojlintrules;
@@ -1998,7 +2004,9 @@
 			files = (
 				OBJ_434 /* LintConfig.swift in Sources */,
 				OBJ_435 /* Rules.swift in Sources */,
-				OBJ_436 /* XcodeprojLinting.swift in Sources */,
+				047ADD521F0FA65300382541 /* Fixable.swift in Sources */,
+				047ADD501F0FA55D00382541 /* PBXFileReferenceRules.swift in Sources */,
+				OBJ_436 /* LintRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

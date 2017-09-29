@@ -1,7 +1,7 @@
-# xcodeprojlint
+# xclint
 
-<a href="https://travis-ci.org/carambalabs/xcodeprojlint">
-    <img src="https://travis-ci.org/carambalabs/xcodeprojlint.svg?branch=master">
+<a href="https://travis-ci.org/carambalabs/xclint">
+    <img src="https://travis-ci.org/carambalabs/xclint.svg?branch=master">
 </a>
 <a href="https://swift.org/package-manager">
     <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
@@ -16,49 +16,37 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" />
 </a>
 
-`xcodeprojlint` is a command line tool written in Swift that validates the state of your Xcode Project. It's able to find duplicated and missing files, inconsistencies between the groups and the folders in your system...
+`xclint` is a command line tool written in Swift that validates the state of your Xcode Project. It's able to find duplicated and missing files, inconsistencies between the groups and the folders in your system...
 
 
 ### Install
 
-You can easily install `xcodeprojlint` with Homebrew:
+You can easily install `xclint` with Homebrew:
 
 ```bash
 brew tap carambalabs/formulae
-brew install xcodeprojlint
+brew install xclint
 ```
 
 ### Contribute
 
-1. Git clone the repository `git@github.com:carambalabs/xcodeprojlint.git`.
+1. Git clone the repository `git@github.com:carambalabs/xclint.git`.
 2. Install Bundler dependencies `bundle install`.
-2. Open `xcodeprojlint.xcodeproj`.
+2. Open `xclint.xcodeproj`.
 
 ### How to use it
 
-`xcodeprojlint` provides the following commands:
+`xclint` provides the following commands:
 
-- `lint` lints your xcode project: `xcodeprojlint lint MyProject.xcodeproj`
+- `lint` lints your xcode project: `xclint lint MyProject.xcodeproj`
 - `rules` prints all the available linting rules.
 - `autocorrect` it tries to correct all the linting issues found.
-- `version` it prints the version of `xcodeprojlint` that you are using.
+- `version` it prints the version of `xclint` that you are using.
 
 ### Documentation
-You can check out the documentation on the following [link](https://carambalabs.github.io/xcodeprojlint/index.html). The documentation is automatically generated in every release by using [Jazzy](https://github.com/realm/jazzy) from [Realm](https://realm.io).
+You can check out the documentation on the following [link](https://carambalabs.github.io/xclint/index.html). The documentation is automatically generated in every release by using [Jazzy](https://github.com/realm/jazzy) from [Realm](https://realm.io).
 
 ### References
 
 - [Rainbow](https://github.com/onevcat/Rainbow)
 - [Commander](https://github.com/kylef/Commander.git)
-
-## About
-
-<img src="https://github.com/carambalabs/Foundation/blob/master/ASSETS/logo-salmon.png?raw=true" width="200" />
-
-This project is funded and maintained by [Caramba](http://caramba.io). We 💛 open source software!
-
-Check out our other [open source projects](https://github.com/carambalabs/), read our [blog](http://blog.caramba.io) or say :wave: on twitter [@carambalabs](http://twitter.com/carambalabs).
-
-## Contribute
-
-Contributions are welcome :metal: We encourage developers like you to help us improve the projects we've shared with the community. Please see the [Contributing Guide](https://github.com/carambalabs/Foundation/blob/master/CONTRIBUTING.md) and the [Code of Conduct](https://github.com/carambalabs/Foundation/blob/master/CONDUCT.md).

@@ -1,24 +1,38 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
 let package = Package(
-    name: "xcodeprojlint",
-    targets: [
-        Target(
-          name: "xcodeprojlint",
-          dependencies: ["xcodeprojlintcommands"]),
-        Target(
-          name: "xcodeprojlintrules",
-          dependencies: []),
-        Target(
-          name: "xcodeprojlintcommands",
-          dependencies: ["xcodeprojlintrules"])
-    ],
+    name: "xclint",
     dependencies: [
-        .Package(url: "https://github.com/carambalabs/xcodeproj.git", majorVersion: 0, minor: 0),
-        .Package(url: "https://github.com/kylef/Commander.git", majorVersion: 0),
-        .Package(url: "https://github.com/onevcat/Rainbow", majorVersion: 2),
-        .Package(url: "https://github.com/JohnSundell/ShellOut.git", majorVersion: 1)
-    ]
+      .package(url: "https://github.com/swift-xcode/xcproj.git", .upToNextMinor(from: "0.2.0")),
+      .package(url: "https://github.com/kylef/Commander.git", .upToNextMinor(from: "0.7.1")),
+      .package(url: "https://github.com/onevcat/Rainbow", .upToNextMinor(from: "2.0.0")),
+      .package(url: "https://github.com/JohnSundell/ShellOut.git", .upToNextMinor(from: "1.0.0"))
+    ],
+    targets: [
+      .target(
+        name: "xclint",
+        dependencies: [
+          "xclintcommands"
+        ]
+      ),
+      .target(
+        name: "xclintrules",
+        dependencies: []
+      ),
+      .target(
+        name: "xclintcommands",
+        dependencies: [
+          "xclintrules"
+        ]
+      )
+      .testTarget(
+        name: "xclintTests",
+        dependencies: [
+          "xclint"
+        ]
+      )
+    ],
+    swiftLanguageVersions: [3]
 )

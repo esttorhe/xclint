@@ -1,16 +1,7 @@
-author: Caramba
-author_url: https://twitter.com/carambalabsEng
-module: xcodeprojlint
+author: swift-xcode
+module: xclint
 module_version: 0.0.1
-github_url: https://github.com/carambalabs/xcodeprojlint
-copyright: 'Copyright © 2017 Caramba. All rights reserved.'
+github_url: https://github.com/swift-xcode/xclint
+copyright: 'Copyright © 2017 swift-xcode. All rights reserved.'
+readme: ABOUT.md
 documentation: guides/*.md
-custom_categories:
-  - name: Commands
-    children:
-      - RulesCommand
-      - AutoCorrectCommand
-      - LintCommand
-  - name: Protocols
-    children:
-      - XcodeprojLinting

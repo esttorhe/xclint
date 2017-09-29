@@ -1,4 +1,4 @@
-**Issue:** [Link](https://github.com/carambalabs/XXXX/issues/YYY)
+**Issue:** [Link](https://github.com/swift-xcode/xclint/issues/YYY)
 
 ### Short description
 > Describe here the purpose of your PR.
@@ -10,7 +10,7 @@
 > Detail in a checklist the steps that you took to implement the PR.
 
 - [ ] Step 1
-- [ ] Setp 2
+- [ ] Step 2
 
 ### GIF
-> Find a descriptive GIF for your PR. Because we :heart: fun at Carambalabs.
+> Find a descriptive GIF for your PR.

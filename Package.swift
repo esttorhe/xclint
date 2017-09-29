@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "xclint",
     dependencies: [
-      .package(url: "https://github.com/swift-xcode/xcproj.git", .upToNextMinor(from: "0.2.0")),
+      .package(url: "https://github.com/xcodeswift/xcproj.git", .upToNextMinor(from: "0.2.0")),
       .package(url: "https://github.com/kylef/Commander.git", .upToNextMinor(from: "0.7.1")),
       .package(url: "https://github.com/onevcat/Rainbow", .upToNextMinor(from: "2.0.0")),
       .package(url: "https://github.com/JohnSundell/ShellOut.git", .upToNextMinor(from: "1.0.0"))

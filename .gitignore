@@ -8,3 +8,4 @@ cartago.tar.gz
 .idea
 xcodeprojlint.tar.gz
 build
+*.xcodeproj

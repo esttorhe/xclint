@@ -1,5 +1,4 @@
-// import Commander
-// import xcodeprojlintcommands
+ import Commander
 
 // let group = Group {
 //     $0.addCommand("lint", "Lint your .xcodeproj", LintCommand)
@@ -9,3 +8,4 @@
 // }
 
 // group.run()
+

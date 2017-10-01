@@ -11,4 +11,3 @@ public protocol LintRule {
     func lint(project: XcodeProj) -> LintError?
     
 }
-

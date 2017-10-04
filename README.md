@@ -1,4 +1,4 @@
-# xclint
+<img src="assets/header.png" width="400"/><br/>
 
 <a href="https://travis-ci.org/carambalabs/xclint">
     <img src="https://travis-ci.org/carambalabs/xclint.svg?branch=master">

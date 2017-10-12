@@ -3,9 +3,12 @@ os:
 language: generic
 osx_image: xcode9
 install:
-  - brew install swiftlint
-  - bundle install
+- brew install swiftlint
+- bundle install
 script:
-  - bundle exec rake ci
+- bundle exec rake ci
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash)
+notifications:
+  slack:
+    secure: Mq1BXPKqWitgUc4RZ6kqNkkzxTav6jhKwEwcSy2XcQVvPEM4PieZcKpCkeX8HjFa0IYJaMSLt+58Zp4zA2W6kh/yEViEHWvuAG9UMI0hOvNkqXFDjAhyuE3q1yecrZ+6Yy4gMVcM0BmZoWV3YXxbz70iVIqs0wXRjhcF9tK30Y2Ld+BgsgWBU2F3xr/BBADR9fVpKJPr1x3rAcGpDcm/Em1Sx09EkzzL7y/ShLw8bySOe4frU9wuN00ngolL8iKWC6zblqRpxopckfm8uLo7yILmtdNWkijG8rQ8ZX9q1mzv1tgvDumLHDizLRLMm3E0NZkW11xqySsq/k7u9+Mcn6m2x0LKeWiA2dFKCRu+gdNIX7YDK8Mpl402Zyaeumdqjf0XutNP6bZ2iiUoTpfItk14YkTOoA4Ac1w6YbxmkriNB38sSOe695p7xN7aUq9AbA17uLgKA3t9h6wSbzAlmjGzGSMnSXtG0Vg5pA+H61RaHlZd9SHEdD4h5PYcix6tTjcYUFTxzX1bHWWNX54VZ/czhy6DZBbN1C8f4hRovFyRSY9CwpMum6ubSEl74mrJrPSNmLuiJkesPJ75THyZZGxxSt58hish7VN36CKj+9lYJuPzsIzIHivIsM4YyEjwd9YHswyVnQ1ZB6fj5q3/V14FTrPkjDuPX8scKP85mJI=

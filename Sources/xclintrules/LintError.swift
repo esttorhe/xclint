@@ -25,6 +25,19 @@ public struct LintError: Error {
     }
 }
 
+
+// MARK: - LintError <Equatable>
+
+extension LintError: Equatable {
+    public static func ==(lhs: LintError, rhs: LintError) -> Bool {
+        return lhs.name == rhs.name &&
+        lhs.description == rhs.description &&
+        lhs.errors == rhs.errors
+    }
+}
+
+// MARK: - LintError Convenience Initializers
+
 extension LintError {
     
     static func missingReference(objectType: String,

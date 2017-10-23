@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		049981F31F9DC46400D5D3A8 /* PBXBuildFile+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049981F11F9DC45A00D5D3A8 /* PBXBuildFile+ProjectLintable.swift */; };
 		OBJ_130 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_136 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Package.swift */; };
 		OBJ_142 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* Package.swift */; };
@@ -28,7 +29,7 @@
 		OBJ_154 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* Package.swift */; };
 		OBJ_160 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* Package.swift */; };
 		OBJ_166 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* Package.swift */; };
-		OBJ_172 /* RulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* RulesTests.swift */; };
+		OBJ_172 /* LintErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* LintErrorTests.swift */; };
 		OBJ_174 /* xclintrules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "xclint::xclintrules::Product" /* xclintrules.framework */; };
 		OBJ_175 /* Rainbow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Rainbow::Rainbow::Product" /* Rainbow.framework */; };
 		OBJ_176 /* xcproj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "xcproj::xcproj::Product" /* xcproj.framework */; };
@@ -312,6 +313,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049981F11F9DC45A00D5D3A8 /* PBXBuildFile+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXBuildFile+ProjectLintable.swift"; sourceTree = "<group>"; };
 		"AEXML::AEXML::Product" /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Commander::Commander::Product" /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Lintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lintable.swift; sourceTree = "<group>"; };
@@ -333,7 +335,7 @@
 		OBJ_12 /* XcodeProj+Lintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XcodeProj+Lintable.swift"; sourceTree = "<group>"; };
 		OBJ_14 /* CommandError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandError.swift; sourceTree = "<group>"; };
 		OBJ_15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_18 /* RulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesTests.swift; sourceTree = "<group>"; };
+		OBJ_18 /* LintErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LintErrorTests.swift; sourceTree = "<group>"; };
 		OBJ_19 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
 		OBJ_20 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = SOURCE_ROOT; };
 		OBJ_23 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/pedro.pinera.buendia/code/xcodeswift/xclint/.build/checkouts/Rainbow-4833422609927903952/Package.swift"; sourceTree = "<group>"; };
@@ -563,7 +565,7 @@
 		OBJ_17 /* xclintrulesTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* RulesTests.swift */,
+				OBJ_18 /* LintErrorTests.swift */,
 			);
 			name = xclintrulesTests;
 			path = Tests/xclintrulesTests;
@@ -695,6 +697,7 @@
 				OBJ_10 /* Lintable.swift */,
 				OBJ_11 /* Log.swift */,
 				OBJ_12 /* XcodeProj+Lintable.swift */,
+				049981F11F9DC45A00D5D3A8 /* PBXBuildFile+ProjectLintable.swift */,
 			);
 			name = xclintrules;
 			path = Sources/xclintrules;
@@ -1112,7 +1115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_172 /* RulesTests.swift in Sources */,
+				OBJ_172 /* LintErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1146,6 +1149,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_235 /* LintError.swift in Sources */,
+				049981F31F9DC46400D5D3A8 /* PBXBuildFile+ProjectLintable.swift in Sources */,
 				OBJ_236 /* Lintable.swift in Sources */,
 				OBJ_237 /* Log.swift in Sources */,
 				OBJ_238 /* XcodeProj+Lintable.swift in Sources */,

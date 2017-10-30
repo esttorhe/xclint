@@ -8,6 +8,7 @@ extension XcodeProj: Lintable {
         errors.append(contentsOf: pbxproj.buildFiles.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.aggregateTargets.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.nativeTargets.flatMap({ $0.lint(project: pbxproj) }))
+        errors.append(contentsOf: pbxproj.containerItemProxies.flatMap({ $0.lint(project: pbxproj) }))
         return errors
     }
     

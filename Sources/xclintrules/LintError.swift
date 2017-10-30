@@ -1,4 +1,5 @@
 import Foundation
+import xcproj
 
 /// Linting error
 public struct LintError: Error {
@@ -53,4 +54,9 @@ extension LintError {
         return LintError(name: "Missing attribute",
                          description: "\(objectType)<\(objectReference)> is missing attribute \(missingAttribute)")
     }
+    
+    static func duplicatedReference(reference: String) -> LintError {
+        return LintError(name: "Multiple references", description: "Multiple objects have the same reference, <\(reference)>")
+    }
+    
 }

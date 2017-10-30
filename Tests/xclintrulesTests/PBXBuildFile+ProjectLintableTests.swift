@@ -10,8 +10,9 @@ final class PBXBuildFile_ProjectLintableTests: XCTestCase {
         let project = PBXProj(objectVersion: 0, rootObject: "root")
         let subject = PBXBuildFile(reference: "ref", fileRef: "fileRef", settings: nil)
         let error = LintError.missingReference(objectType: "PBXBuildFile", objectReference: "ref", missingReference: "PBXFileReference<fileRef>")
-        let gotErrors = subject.lint(project: project)
-        XCTAssertEqual(gotErrors.first, error)
+        let got = subject.lint(project: project)
+        XCTAssertEqual(got.count, 1)
+        XCTAssertEqual(got.first, error)
     }
     
 }

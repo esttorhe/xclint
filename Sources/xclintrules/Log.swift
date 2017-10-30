@@ -10,6 +10,7 @@ public func log(errors: [LintError], level: Int = 0) {
     errors.forEach { (error) in
         var errorMessage = prefix + " " + error.name.yellow + " - " + error.description
         errorMessage += error.errors.isEmpty ? "." : ":"
+        print(errorMessage)
         if !error.errors.isEmpty { log(errors: error.errors, level: level + 1) }
     }
 }

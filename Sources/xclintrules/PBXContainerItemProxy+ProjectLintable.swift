@@ -1,8 +1,9 @@
 import Foundation
 import xcproj
 
-// MARK: - ProjectLintable <Lintable>
 extension PBXContainerItemProxy: ProjectLintable {
+    
+    // MARK: - Public
     
     public func lint(project: PBXProj) -> [LintError] {
         var errors: [LintError] = []
@@ -14,6 +15,8 @@ extension PBXContainerItemProxy: ProjectLintable {
         }
         return errors
     }
+    
+    // MARK: - Fileprivate
     
     fileprivate func lintRemoteGlobalIDString(project: PBXProj) -> LintError? {
         guard let remoteGlobalIDString = self.remoteGlobalIDString else { return nil }

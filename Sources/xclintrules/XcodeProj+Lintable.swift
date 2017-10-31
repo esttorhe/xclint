@@ -1,7 +1,8 @@
 import xcproj
 
-// MARK: - XcodeProj <Lintable>
 extension XcodeProj: Lintable {
+    
+    // MARK: - Public
     
     public func lint() -> [LintError] {
         var errors: [LintError] = []
@@ -13,6 +14,8 @@ extension XcodeProj: Lintable {
         errors.append(contentsOf: pbxproj.groups.flatMap({ $0.lint(project: pbxproj) }))
         return errors
     }
+    
+    // MARK: - Fileprivate
     
     fileprivate func lintDuplicates() -> [LintError] {
         return pbxproj.objects

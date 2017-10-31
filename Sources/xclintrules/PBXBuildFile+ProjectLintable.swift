@@ -1,8 +1,9 @@
 import Foundation
 import xcproj
 
-// MARK: - PBXBuildFile <ProjectLintable>
 extension PBXBuildFile: ProjectLintable {
+    
+    // MARK: - Public
     
     public func lint(project: PBXProj) -> [LintError] {
         var errors: [LintError] = []
@@ -12,10 +13,8 @@ extension PBXBuildFile: ProjectLintable {
         return errors
     }
     
-    /// Lints that the build file has a fileRef attribute and it points to an file that exists in the project.
-    ///
-    /// - Parameter project: project where the file reference should be contained.
-    /// - Returns: errors if the linting fails.
+    // MARK: - Fileprivate
+    
     fileprivate func lintFileRef(project: PBXProj) -> LintError? {
         if let fileRef = fileRef {
             let exists = project.fileReferences.contains(reference: fileRef)

@@ -1,8 +1,10 @@
 import Foundation
 import xcproj
 
-// MARK: - PBXTarget <ProjectLintable>
 extension PBXTarget: ProjectLintable {
+    
+    // MARK: - Public
+    
     public func lint(project: PBXProj) -> [LintError] {
         var errors: [LintError] = []
         if let buildConfigurationListError = lintConfigurationList(project: project) {
@@ -15,6 +17,8 @@ extension PBXTarget: ProjectLintable {
         }
         return errors
     }
+    
+    // MARK: - Fileprivate
     
     fileprivate func lintConfigurationList(project: PBXProj) -> LintError? {
         if let buildConfigurationList = buildConfigurationList {

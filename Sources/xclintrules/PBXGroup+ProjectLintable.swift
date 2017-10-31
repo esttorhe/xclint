@@ -3,11 +3,15 @@ import xcproj
 
 extension PBXGroup: ProjectLintable {
     
+    // MARK: - Public
+    
     public func lint(project: PBXProj) -> [LintError] {
         var errors: [LintError] = []
         errors.append(contentsOf: lintChildren(project: project))
         return errors
     }
+    
+    // MARK: - Fileprivate
     
     fileprivate func lintChildren(project: PBXProj) -> [LintError] {
         return children

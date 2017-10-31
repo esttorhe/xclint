@@ -24,6 +24,7 @@
 		04AF2EB41FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF2EB31FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift */; };
 		04FF43A91FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF43A81FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift */; };
 		04FF43B41FA874B300D786C4 /* PBXGroup+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF43B31FA874B300D786C4 /* PBXGroup+ProjectLintable.swift */; };
+		04FF43B61FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF43B51FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift */; };
 		OBJ_134 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_140 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Package.swift */; };
 		OBJ_146 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* Package.swift */; };
@@ -322,6 +323,7 @@
 		04AF2EB31FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXContainerItemProxy+ProjectLintable.swift"; sourceTree = "<group>"; };
 		04FF43A81FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXContainerItemProxy+ProjectLintableTests.swift"; sourceTree = "<group>"; };
 		04FF43B31FA874B300D786C4 /* PBXGroup+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXGroup+ProjectLintable.swift"; sourceTree = "<group>"; };
+		04FF43B51FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXGroup+ProjectLintableTests.swift"; sourceTree = "<group>"; };
 		"AEXML::AEXML::Product" /* AEXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AEXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Commander::Commander::Product" /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* Lintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lintable.swift; sourceTree = "<group>"; };
@@ -581,6 +583,7 @@
 				OBJ_21 /* PBXBuildFile+ProjectLintableTests.swift */,
 				OBJ_22 /* PBXTarget+ProjectLintableTests.swift */,
 				04FF43A81FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift */,
+				04FF43B51FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift */,
 			);
 			name = xclintrulesTests;
 			path = Tests/xclintrulesTests;
@@ -1134,6 +1137,7 @@
 			files = (
 				OBJ_176 /* LintErrorTests.swift in Sources */,
 				04FF43A91FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift in Sources */,
+				04FF43B61FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift in Sources */,
 				OBJ_177 /* PBXBuildFile+ProjectLintableTests.swift in Sources */,
 				OBJ_178 /* PBXTarget+ProjectLintableTests.swift in Sources */,
 			);

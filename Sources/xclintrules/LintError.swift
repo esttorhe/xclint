@@ -45,7 +45,7 @@ extension LintError {
                                  objectReference: String,
                                  missingReference: String) -> LintError {
         return LintError(name: "Missing reference",
-                         description: "\(objectType)<\(objectReference)> has a reference to a file <\(missingReference)> that doesn't exist")
+                         description: "\(objectType)<\(objectReference)> has a reference to an element <\(missingReference)> that doesn't exist")
     }
     
     static func missingAttribute(objectType: String,

@@ -17,7 +17,7 @@ extension PBXContainerItemProxy: ProjectLintable {
     
     fileprivate func lintRemoteGlobalIDString(project: PBXProj) -> LintError? {
         guard let remoteGlobalIDString = self.remoteGlobalIDString else { return nil }
-        let exists = project.fileReferences.contains(reference: remoteGlobalIDString)
+        let exists = project.nativeTargets.contains(reference: remoteGlobalIDString)
         if exists { return nil }
         return LintError.missingReference(objectType: String(describing: type(of: self)),
                                           objectReference: reference,

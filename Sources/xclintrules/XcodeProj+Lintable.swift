@@ -14,6 +14,7 @@ extension XcodeProj: Lintable {
         errors.append(contentsOf: pbxproj.groups.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.configurationLists.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.variantGroups.flatMap({ $0.lint(project: pbxproj) }))
+        errors.append(contentsOf: pbxproj.targetDependencies.flatMap({ $0.lint(project: pbxproj) }))
         return errors
     }
     

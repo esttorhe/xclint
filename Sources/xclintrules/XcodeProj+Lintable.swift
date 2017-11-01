@@ -22,17 +22,14 @@ extension XcodeProj: Lintable {
     // MARK: - Fileprivate
     
     fileprivate func lintDuplicates() -> [LintError] {
+        // FIXME: When the .pbxproj is parsed duplicated entries are automatically removed.
+        // As a result this lint has no effect.
         return pbxproj.objects
             .reduce(into: [String: [PBXObject]](), { $0[$1.reference, default: []].append($1) })
-            .filter({$0.value.count != 1})
+            .filter({ $0.value.count != 1 })
             .map { (reference, _) -> LintError in
                 return LintError.duplicatedReference(reference: reference)
             }
-    }
-    
-    fileprivate func lintMissingFiles() -> [LintError] {
-        // TODO: Lint that the references are pointing to existing files
-        return []
     }
     
 }

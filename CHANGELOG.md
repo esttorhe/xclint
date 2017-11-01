@@ -1,5 +1,11 @@
 🚀 Check out the guidelines [here](https://github.com/xcodeswift/contributors/blob/master/CHANGELOG_GUIDELINES.md)
 
+## 0.1.0
+
+### Added
+- Linting missing references.
+- Linting missing attributes.
+
 ## 0.0.3
 - Add documentation generation using Jazzy https://github.com/xcodeswift/xclint/issues/5
 - Release process documented https://github.com/xcodeswift/xclint/issues/2

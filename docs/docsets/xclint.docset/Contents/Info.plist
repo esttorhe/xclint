@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>CFBundleIdentifier</key>
-      <string>com.jazzy.xcodeprojlint</string>
+      <string>com.jazzy.xclint</string>
     <key>CFBundleName</key>
-      <string>xcodeprojlint</string>
+      <string>xclint</string>
     <key>DocSetPlatformFamily</key>
-      <string>xcodeprojlint</string>
+      <string>xclint</string>
     <key>isDashDocset</key>
       <true/>
     <key>dashIndexFilePath</key>

@@ -7,7 +7,7 @@ let package = Package(
     dependencies: [
       .package(url: "https://github.com/kylef/Commander.git", .upToNextMinor(from: "0.6.0")),
       .package(url: "https://github.com/kylef/PathKit.git", .upToNextMinor(from: "0.8.0")),
-      .package(url: "https://github.com/xcodeswift/xcproj.git", .revision("5504fcde00bc56cf6c240ecd7cc36c05296861f8")),
+      .package(url: "https://github.com/xcodeswift/xcproj.git", .upToNextMinor(from: "1.3.0")),
       .package(url: "https://github.com/onevcat/Rainbow", .upToNextMinor(from: "3.0.0"))
     ],
     targets: [

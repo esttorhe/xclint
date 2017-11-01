@@ -26,6 +26,7 @@
 		0480F70A1FA9B18B00DE023B /* PBXTargetDependency+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480F7091FA9B18B00DE023B /* PBXTargetDependency+ProjectLintable.swift */; };
 		0480F70C1FA9B2D600DE023B /* PBXTargetDependency+ProjectLintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480F70B1FA9B2D600DE023B /* PBXTargetDependency+ProjectLintableTests.swift */; };
 		0480F70E1FA9B43E00DE023B /* PBXProject+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480F70D1FA9B43E00DE023B /* PBXProject+ProjectLintable.swift */; };
+		0480F7101FA9B76800DE023B /* PBXProject+ProjectLintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480F70F1FA9B76800DE023B /* PBXProject+ProjectLintableTests.swift */; };
 		04AF2EB41FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF2EB31FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift */; };
 		04FF43A91FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF43A81FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift */; };
 		04FF43B41FA874B300D786C4 /* PBXGroup+ProjectLintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF43B31FA874B300D786C4 /* PBXGroup+ProjectLintable.swift */; };
@@ -332,6 +333,7 @@
 		0480F7091FA9B18B00DE023B /* PBXTargetDependency+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXTargetDependency+ProjectLintable.swift"; sourceTree = "<group>"; };
 		0480F70B1FA9B2D600DE023B /* PBXTargetDependency+ProjectLintableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXTargetDependency+ProjectLintableTests.swift"; sourceTree = "<group>"; };
 		0480F70D1FA9B43E00DE023B /* PBXProject+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXProject+ProjectLintable.swift"; sourceTree = "<group>"; };
+		0480F70F1FA9B76800DE023B /* PBXProject+ProjectLintableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXProject+ProjectLintableTests.swift"; sourceTree = "<group>"; };
 		04AF2EB31FA7945200D40262 /* PBXContainerItemProxy+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXContainerItemProxy+ProjectLintable.swift"; sourceTree = "<group>"; };
 		04FF43A81FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXContainerItemProxy+ProjectLintableTests.swift"; sourceTree = "<group>"; };
 		04FF43B31FA874B300D786C4 /* PBXGroup+ProjectLintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PBXGroup+ProjectLintable.swift"; sourceTree = "<group>"; };
@@ -601,6 +603,7 @@
 				04FF43B91FA87E1B00D786C4 /* XCConfigurationList+ProjectLintableTests.swift */,
 				0480F7071FA9B0D300DE023B /* PBXVariantGroup+ProjectLintableTests.swift */,
 				0480F70B1FA9B2D600DE023B /* PBXTargetDependency+ProjectLintableTests.swift */,
+				0480F70F1FA9B76800DE023B /* PBXProject+ProjectLintableTests.swift */,
 			);
 			name = xclintrulesTests;
 			path = Tests/xclintrulesTests;
@@ -1160,6 +1163,7 @@
 				0480F70C1FA9B2D600DE023B /* PBXTargetDependency+ProjectLintableTests.swift in Sources */,
 				OBJ_176 /* LintErrorTests.swift in Sources */,
 				04FF43A91FA795D800D786C4 /* PBXContainerItemProxy+ProjectLintableTests.swift in Sources */,
+				0480F7101FA9B76800DE023B /* PBXProject+ProjectLintableTests.swift in Sources */,
 				0480F7081FA9B0D300DE023B /* PBXVariantGroup+ProjectLintableTests.swift in Sources */,
 				04FF43B61FA87C3F00D786C4 /* PBXGroup+ProjectLintableTests.swift in Sources */,
 				OBJ_177 /* PBXBuildFile+ProjectLintableTests.swift in Sources */,

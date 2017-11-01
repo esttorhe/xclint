@@ -18,7 +18,7 @@
 
 `xclint` is a command line tool written in Swift that validates the state of your Xcode Project. It's able to find duplicated and missing files, inconsistencies between the groups and the folders in your system...
 
-## Install
+## Install 🥑
 
 You can easily install xclint with Homebrew:
 
@@ -33,17 +33,20 @@ You can also easily run the tool using [🌱 Mint](https://github.com/yonaskolb/
 mint run xcodeswift/xclint
 ```
 
-## Setup
+## Setup ⚙️
 
 1. Git clone the repository `git clone git@github.com:xcodeswift/xclint.git`
 2. Build with `swift build`
 
 
-### How to use it
+### How to use it 🙃
 
 ```bash
 xclint MyProject.xcodeproj
 ```
+
+## Documentation 📄
+You can check out the documentation on the following [link](https://xcodeswift.github.io/xclint/index.html). The documentation is automatically generated in every release by using [Jazzy](https://github.com/realm/jazzy) from [Realm](https://realm.io).
 
 ### References
 

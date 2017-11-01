@@ -67,8 +67,6 @@ task :release => [:clean] do
   version = next_version
   bump_to_version(current_version, next_version)
   print "> Commit created and tagged with version: #{version}"
-  print "> Pushing new version to CocoaPods"
-  sh "bundle exec pod trunk push --verbose --allow-warnings"
 end
 
 task :docs do

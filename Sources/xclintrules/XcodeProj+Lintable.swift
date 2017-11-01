@@ -15,6 +15,7 @@ extension XcodeProj: Lintable {
         errors.append(contentsOf: pbxproj.configurationLists.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.variantGroups.flatMap({ $0.lint(project: pbxproj) }))
         errors.append(contentsOf: pbxproj.targetDependencies.flatMap({ $0.lint(project: pbxproj) }))
+        errors.append(contentsOf: pbxproj.projects.flatMap({ $0.lint(project: pbxproj) }))
         return errors
     }
     
@@ -27,6 +28,11 @@ extension XcodeProj: Lintable {
             .map { (reference, _) -> LintError in
                 return LintError.duplicatedReference(reference: reference)
             }
+    }
+    
+    fileprivate func lintMissingFiles() -> [LintError] {
+        // TODO: Lint that the references are pointing to existing files
+        return []
     }
     
 }

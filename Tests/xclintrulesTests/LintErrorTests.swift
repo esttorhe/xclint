@@ -8,7 +8,7 @@ final class LintErrorTests: XCTestCase {
     func test_missingReference_hasTheCorrectAttributes() {
         let subject = LintError.missingReference(objectType: "type", objectReference: "obj_ref", missingReference: "miss_ref")
         XCTAssertEqual(subject.name, "Missing reference")
-        XCTAssertEqual(subject.description, "type<obj_ref> has a reference to an element <miss_ref> that doesn't exist")
+        XCTAssertEqual(subject.description, "type<obj_ref> has a reference to an element miss_ref that doesn't exist")
         XCTAssertTrue(subject.errors.isEmpty)
     }
     
